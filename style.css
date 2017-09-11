@@ -1,0 +1,154 @@
+body {
+    background-color:  #e5fffe;
+
+}
+header {
+    width: 100%;
+    height: 100px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 5;
+    background: #24b;
+    box-shadow: 0px 2px 4px rgba(44, 62, 80, 0, 150);
+    border-bottom-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 20px;
+    padding: 30px;
+
+}
+
+header input {
+    color: #000000;
+    font-size: 20px;
+    text-indent: 40px;
+    width: 100%;
+    height: 40px;
+    padding: 0 100px 0 0;
+    float: left;
+    background: rgba(255, 255, 255, 0.2);
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    box-shadow: none;
+    border: 0px;
+    outline: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-appearance: none;
+    -o-appearance: none;
+    apperance: none;
+
+}
+
+header input::-webkit-input-placeholder {
+    color: rgba(255,255,255,0.5);
+}
+
+header button {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    top: 31px;
+    right: 15px;
+    border-radius: 25px;
+    background: #0a4958;
+    box-shadow: none;
+}
+ h2{
+    text-transform: uppercase;
+
+}
+ .container {
+     width: 100%;
+     float: left;
+     padding: 150px;
+ }
+  ul.items {
+     width: 100%;
+     float: left;
+ }
+ ul.items li {
+     width: 100%;
+     float: left;
+     min-height: 50px;
+     position: relative;
+     background: #fff;
+     border-radius: 10px;
+     box-shadow: 0px 1px 2px rgba(44,62,80,0.10);
+     margin-bottom: 15px;
+     font-size: 20px;
+     font-weight: 500;
+     line-height: 22px;
+     padding: 14px 100px 14px 14px;
+     cursor: pointer;
+     /* make the list items unselectable */
+     -webkit-user-select: none;
+     -moz-user-select: none;
+     -ms-user-select: none;
+     user-select: none;
+ }
+ ul.items li.button {
+     width: 100px;
+     height: 50px;
+     position: absolute;
+     top: 0;
+
+ }
+
+
+
+/* Po kliknięciu dodaje tło */
+ .done {
+    background: #5cb85c;
+    color: #fff;
+
+}
+
+
+
+
+ul {
+    list-style-type: none;
+    font-size: 18px;
+    padding: 10px 30px;
+}
+li {
+    text-align: left;
+    padding: 0 10px 30px 30px;
+    color: black;
+}
+.remove {
+    width: 80px;
+    float: right;
+    color: #ffffff;
+    background-color: #ff0000;
+    text-align: center;
+    font-size: 16px;
+    
+
+}
+
+
+#kontener-fluid {
+
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 20px;
+    border: 40px solid #4e69c9;
+
+}
+
+.select {
+    width: 80px;
+    float: right;
+    color: #ffffff;
+    background-color: greenyellow;
+    text-align: center;
+    font-size: 16px;
+}
